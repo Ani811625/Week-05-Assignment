@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modal</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .main{
+           
+            background-color: rgb(91, 89, 87);
+            height: 100vh;
+            width: 100%;
+        }
+        .content>.h{
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-bottom: 5px;
+        }
+        .content>p{
+           margin-left: 10px;
+           margin-bottom: 30px;
+        }
+        .content>h1{
+           
+            margin-left: 10px;
+            margin-bottom: 5px;
+        }
+        .form{
+            height: 450px;
+            width: 600px;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid black;
+            border-radius: 15px;
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translate(-50%); 
+        }
+        h2{
+            text-align: center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+        #name{
+            height: 40px;
+            margin-top: 20px;
+            margin-left: 3.5px;
+            width: 97%;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin-bottom: 30px;
+        }
+        #email{
+            margin-top: 20px;
+            margin-left: 3.5px;
+            width: 48%;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin-bottom: 25px;
+        }
+        #number{
+            margin-top: 20px;
+            margin-left: 3.5px;
+            width: 48%;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin-bottom: 25px;
+        }
+        #message{
+            margin-top: 20px;
+            margin-left: 3.5px;
+            width: 48%;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin-bottom: 20px;
+            width: 97%;
+            height: 120px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            color: rgb(95, 93, 89);
+            border-bottom: 2px solid rgb(83, 81, 81);
+        }
+        #submit{
+            margin-top: 2px;
+            margin-left: 3.5px;
+            height: 35px;
+            width: 70px;
+            color: white;
+            background-color: rgb(0, 89, 255);
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="content">
+            <h1>Full Stack Web Developement</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, doloremque laboriosam soluta
+                perferendis obcaecati eaque eius exercitationem vel temporibus unde excepturi tempore distinctio nisi ab
+                dolores. Accusantium quasi praesentium facere nobis ratione provident, facilis magnam incidunt nam
+                corrupti qui veritatis a iure repellendus? Recusandae, vel, exercitationem alias enim vero aliquam
+                itaque magni dolor velit, voluptates doloribus id quia sapiente omnis a. Adipisci, ipsa. Assumenda quam,
+                recusandae repellat voluptas quod, pariatur labore rerum itaque, velit quos magnam nobis ratione.
+                Maiores ex obcaecati ratione quos, similique accusantium unde reiciendis, ut eaque perferendis eum error
+                placeat amet, eos dolor quidem ab necessitatibus magnam at fuga dignissimos doloremque. Deleniti
+                quibusdam nostrum consequatur. Vero cumque quaerat facilis, minima, inventore sequi mollitia quidem
+                quibusdam obcaecati alias incidunt, eum ducimus perferendis accusamus ipsum molestias maiores. Unde ea
+                voluptates aliquam vero asperiores sed quasi a cupiditate voluptatem reprehenderit est, quo eveniet
+                repellat, natus et, libero amet porro modi?</p>
+            <h1 class="h">Course Details</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque assumenda facere et quos vero ipsam labore
+                reprehenderit amet cumque. Non voluptatem quasi, itaque ut ipsum eum ratione ad tenetur maxime facere
+                perspiciatis natus facilis laborum dolorum sunt. Nam sapiente atque dolore obcaecati, omnis nisi porro
+                ducimus illum commodi soluta doloremque natus deserunt ea? Reprehenderit eaque ut odit cupiditate
+                quaerat commodi quidem odio, dicta, earum animi minus fugiat voluptates eius quae, explicabo iure.
+                Provident, amet officiis fugit, quis magnam at doloremque dolorum unde ea consequuntur sed eius
+                distinctio quod quaerat earum necessitatibus assumenda. Aperiam nulla mollitia fugit. Error repellendus
+                officiis labore cupiditate consectetur voluptatem laudantium tenetur, culpa impedit qui, sed cumque
+                libero ducimus ab porro reiciendis ad ipsa amet laboriosam veniam est natus quas, dolorem recusandae.
+                Error esse consectetur quam corporis incidunt doloremque amet sit voluptatem recusandae officiis
+                praesentium animi consequuntur iusto quis dolorem soluta, nesciunt, quasi laudantium ducimus similique
+                itaque debitis. Sequi officia dolores numquam quasi et consectetur nemo, dignissimos eos mollitia vel
+                debitis quod nobis atque laboriosam quas earum autem aut facere quam hic dolorem unde vero illo sit?
+                Soluta perspiciatis nostrum molestiae quod consequatur ut, nam assumenda. Culpa, eligendi asperiores
+                magni blanditiis ex provident laudantium doloribus adipisci, molestiae laboriosam aspernatur ratione nam
+                amet voluptas. Veniam repellat, odio adipisci sint nihil laboriosam ipsam molestiae praesentium
+                assumenda natus nostrum, doloribus aliquid! Sint maiores nobis similique beatae, incidunt quia quaerat
+                temporibus mollitia, unde culpa sit. Iste facilis quo qui amet in aspernatur sequi, veritatis,
+                consequatur minima est explicabo iusto aliquam exercitationem quod ullam? Nobis ex adipisci tempore
+                fugit aspernatur consequatur neque ad minus, veniam, quibusdam nemo fuga illum ab asperiores atque. Iste
+                vel animi ipsam inventore commodi illo eius est illum, suscipit maiores, voluptates ut voluptas quasi
+                sapiente magni explicabo laudantium odit nisi minima. Quasi libero quisquam nihil blanditiis nulla
+                numquam quibusdam praesentium illum? Quod provident saepe, velit esse rerum, libero qui doloremque iure
+                sunt cum totam porro eos enim molestias fugit architecto iste voluptate maxime accusamus eum doloribus
+                est incidunt perferendis! Perspiciatis itaque, quaerat fugiat non iste voluptatem omnis dolor laborum
+                aut distinctio, veniam debitis veritatis esse cupiditate enim nemo neque illo accusamus porro, impedit
+                incidunt. Consequuntur labore aspernatur sunt officia cum aliquid, pariatur quos debitis animi
+                exercitationem, consequatur sed vero veritatis repudiandae natus perspiciatis ipsum dolorem beatae
+                perferendis earum laborum nesciunt, dolorum similique? Suscipit consequatur amet cum, laborum quidem
+                vero quis debitis esse ut doloremque voluptatibus exercitationem? Provident, perferendis.</p>
+        </div>
+        <div class="form">
+           <div>
+            <h2>User's Details</h2><hr>
+            <input type="text" name="" id="name" placeholder="FULL NAME">
+           </div>
+           <input type="email" name="" id="email" placeholder="E-MAIL ID">
+           <input type="number" name="" id="number" placeholder="MOBILE NUMBER">
+           <textarea name="" id="message" cols="30" rows="10">MESSAGE</textarea>
+           <button id="submit">SUBMIT</button>
+        </div>
+    </div>
+</body>
+
+</html>

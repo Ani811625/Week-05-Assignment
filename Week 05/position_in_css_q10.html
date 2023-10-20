@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modal</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .main {
+
+            background-color: rgb(91, 89, 87);
+            height: 100vh;
+            width: 100%;
+        }
+
+        .content>.h {
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-bottom: 5px;
+        }
+
+        .content>p {
+            margin-left: 10px;
+            margin-bottom: 30px;
+        }
+
+        .content>h1 {
+
+            margin-left: 10px;
+            margin-bottom: 5px;
+        }
+
+        .form {
+            height: 450px;
+            width: 600px;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid black;
+            border-radius: 15px;
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+        h2 {
+            text-align: center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+
+        #name {
+            height: 40px;
+            margin-top: 20px;
+            margin-left: 3.5px;
+            width: 97%;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin-bottom: 30px;
+        }
+
+        #email {
+            margin-top: 20px;
+            margin-left: 3.5px;
+            width: 48%;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin-bottom: 25px;
+        }
+
+        #number {
+            margin-top: 20px;
+            margin-left: 3.5px;
+            width: 48%;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin-bottom: 25px;
+        }
+
+        #message {
+            margin-top: 20px;
+            margin-left: 3.5px;
+            width: 48%;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin-bottom: 20px;
+            width: 97%;
+            height: 120px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            color: rgb(95, 93, 89);
+            border-bottom: 2px solid rgb(83, 81, 81);
+        }
+
+        #submit {
+            margin-top: 2px;
+            margin-left: 10px;
+            height: 35px;
+            width: 70px;
+            color: white;
+            background-color: rgb(0, 89, 255);
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        .co{
+            height: 300px;
+            overflow-y: scroll;
+        }
+        .co>p{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .terms{
+            margin-left: 10px;
+        }
+        hr{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .line{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="content">
+            <h1>Full Stack Web Developement</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, doloremque laboriosam soluta
+                perferendis obcaecati eaque eius exercitationem vel temporibus unde excepturi tempore distinctio nisi ab
+                dolores. Accusantium quasi praesentium facere nobis ratione provident, facilis magnam incidunt nam
+                corrupti qui veritatis a iure repellendus? Recusandae, vel, exercitationem alias enim vero aliquam
+                itaque magni dolor velit, voluptates doloribus id quia sapiente omnis a. Adipisci, ipsa. Assumenda quam,
+                recusandae repellat voluptas quod, pariatur labore rerum itaque, velit quos magnam nobis ratione.
+                Maiores ex obcaecati ratione quos, similique accusantium unde reiciendis, ut eaque perferendis eum error
+                placeat amet, eos dolor quidem ab necessitatibus magnam at fuga dignissimos doloremque. Deleniti
+                quibusdam nostrum consequatur. Vero cumque quaerat facilis, minima, inventore sequi mollitia quidem
+                quibusdam obcaecati alias incidunt, eum ducimus perferendis accusamus ipsum molestias maiores. Unde ea
+                voluptates aliquam vero asperiores sed quasi a cupiditate voluptatem reprehenderit est, quo eveniet
+                repellat, natus et, libero amet porro modi?</p>
+            <h1 class="h">Course Details</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque assumenda facere et quos vero ipsam labore
+                reprehenderit amet cumque. Non voluptatem quasi, itaque ut ipsum eum ratione ad tenetur maxime facere
+                perspiciatis natus facilis laborum dolorum sunt. Nam sapiente atque dolore obcaecati, omnis nisi porro
+                ducimus illum commodi soluta doloremque natus deserunt ea? Reprehenderit eaque ut odit cupiditate
+                quaerat commodi quidem odio, dicta, earum animi minus fugiat voluptates eius quae, explicabo iure.
+                Provident, amet officiis fugit, quis magnam at doloremque dolorum unde ea consequuntur sed eius
+                distinctio quod quaerat earum necessitatibus assumenda. Aperiam nulla mollitia fugit. Error repellendus
+                officiis labore cupiditate consectetur voluptatem laudantium tenetur, culpa impedit qui, sed cumque
+                libero ducimus ab porro reiciendis ad ipsa amet laboriosam veniam est natus quas, dolorem recusandae.
+                Error esse consectetur quam corporis incidunt doloremque amet sit voluptatem recusandae officiis
+                praesentium animi consequuntur iusto quis dolorem soluta, nesciunt, quasi laudantium ducimus similique
+                itaque debitis. Sequi officia dolores numquam quasi et consectetur nemo, dignissimos eos mollitia vel
+                debitis quod nobis atque laboriosam quas earum autem aut facere quam hic dolorem unde vero illo sit?
+                Soluta perspiciatis nostrum molestiae quod consequatur ut, nam assumenda. Culpa, eligendi asperiores
+                magni blanditiis ex provident laudantium doloribus adipisci, molestiae laboriosam aspernatur ratione nam
+                amet voluptas. Veniam repellat, odio adipisci sint nihil laboriosam ipsam molestiae praesentium
+                assumenda natus nostrum, doloribus aliquid! Sint maiores nobis similique beatae, incidunt quia quaerat
+                temporibus mollitia, unde culpa sit. Iste facilis quo qui amet in aspernatur sequi, veritatis,
+                consequatur minima est explicabo iusto aliquam exercitationem quod ullam? Nobis ex adipisci tempore
+                fugit aspernatur consequatur neque ad minus, veniam, quibusdam nemo fuga illum ab asperiores atque. Iste
+                vel animi ipsam inventore commodi illo eius est illum, suscipit maiores, voluptates ut voluptas quasi
+                sapiente magni explicabo laudantium odit nisi minima. Quasi libero quisquam nihil blanditiis nulla
+                numquam quibusdam praesentium illum? Quod provident saepe, velit esse rerum, libero qui doloremque iure
+                sunt cum totam porro eos enim molestias fugit architecto iste voluptate maxime accusamus eum doloribus
+                est incidunt perferendis! Perspiciatis itaque, quaerat fugiat non iste voluptatem omnis dolor laborum
+                aut distinctio, veniam debitis veritatis esse cupiditate enim nemo neque illo accusamus porro, impedit
+                incidunt. Consequuntur labore aspernatur sunt officia cum aliquid, pariatur quos debitis animi
+                exercitationem, consequatur sed vero veritatis repudiandae natus perspiciatis ipsum dolorem beatae
+                perferendis earum laborum nesciunt, dolorum similique? Suscipit consequatur amet cum, laborum quidem
+                vero quis debitis esse ut doloremque voluptatibus exercitationem? Provident, perferendis.</p>
+        </div>
+        <div class="form">
+            <div>
+                <h2>Terms and Conditions</h2>
+                <hr>
+                <div class="co">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, possimus sapiente voluptates,
+                        consequuntur incidunt ex culpa nesciunt quibusdam quidem necessitatibus corrupti quis
+                        exercitationem illo temporibus asperiores labore neque reprehenderit sint iusto, maiores
+                        suscipit. Corporis facilis amet fuga. Architecto fugit alias exercitationem iusto sapiente earum
+                        neque magnam similique debitis, adipisci beatae, commodi atque impedit, mollitia tempore soluta
+                        quod esse possimus explicabo vitae est voluptas! Illum officiis delectus molestiae aliquam
+                        corporis praesentium, beatae voluptatum minima distinctio repudiandae. Obcaecati eveniet
+                        praesentium deleniti saepe veniam natus architecto quaerat magni, aliquid accusantium quae autem
+                        corporis pariatur beatae, eos aperiam nisi minus magnam! Eligendi ratione consectetur eius
+                        cumque vitae ipsam aspernatur autem, veniam, nemo, ad quae aut quos eveniet quis explicabo.
+                        Nihil sed earum ullam! Ratione laudantium quidem, deleniti nemo sapiente optio dolorem nulla
+                        reiciendis quibusdam quasi maiores? Perferendis voluptas, accusantium ratione molestiae
+                        quibusdam ipsum repellendus aperiam minus illo dolorem delectus odio consectetur corrupti ad
+                        inventore expedita aut doloribus velit assumenda sunt molestias cupiditate perspiciatis quam
+                        asperiores. Voluptatem dolorem tenetur, totam vel adipisci et ipsum voluptates inventore. Veniam
+                        tenetur iusto itaque nihil voluptatem ab, sunt quibusdam delectus ratione possimus et, quo odit.
+                        Facere natus odit minima eum fugiat, nam sapiente minus quasi ut cupiditate accusantium nisi et
+                        deserunt non eveniet ipsa est, repudiandae pariatur perspiciatis! Facilis nisi eligendi quisquam
+                        optio corporis illo voluptatibus hic rem, iusto odit accusantium nulla aliquam. Delectus
+                        inventore nulla quisquam fugit minima. Dolorem pariatur natus fuga quas quidem. Ad repellat
+                        neque ea, laborum assumenda sed? Est laboriosam mollitia aliquid animi quas ut modi ipsum harum
+                        laudantium sequi impedit aperiam error quidem quia asperiores illum fuga, iste dolore. Inventore
+                        architecto libero impedit reprehenderit eius consectetur magnam beatae praesentium fugit,
+                        repudiandae soluta cupiditate quos neque officiis ad odit dicta cum dolor mollitia vitae,
+                        perferendis quae nostrum quis corporis. Fugiat sequi nisi exercitationem repudiandae magnam. Ab
+                        ratione, ducimus illo esse nihil quisquam rem deserunt laudantium odio harum, mollitia animi
+                        illum amet dolorem laboriosam expedita assumenda earum voluptatem ipsum. Cum quaerat saepe
+                        debitis quisquam vitae explicabo rem commodi voluptates, dolore ex repellendus ipsam et amet
+                        iste sequi neque eum distinctio doloribus velit dignissimos. Beatae, voluptatum quis.</p>
+                </div><hr>
+                <div class="line">
+                <input type="checkbox" class="terms">I accept the terms and conditions given above.
+            </div>
+        </div>
+
+            <button id="submit">SUBMIT</button>
+        </div>
+    </div>
+</body>
+
+</html>
